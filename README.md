@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Before to start
+
+You MUST modify src/EventPutter.js file to apply your cognito Identity Pool ID & pingpoint application ID.
+
+in src/EventPutter.js
+
+    const IDENTITY_POOL_ID = '<your identity pool id>';
+    const PINPOINT_APP_ID = '<your pinpoint app id>';
+    const REGION = "<your pintpoint / cognito endpoint region>";
+
+
 ## Available Scripts
 
 In the project directory, you can run:
